@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    background-color: gray;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: aqua;
+    margin-right: 15px;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #61dafe;
+    background-color: slategrey;
+}
+.nav-link li{
+    margin: 10px 0;
+}
